@@ -8,7 +8,7 @@ app.register_blueprint(user)
 
 @app.route('/', methods=['GET'])
 def home():
-    return "<h1>HOME</h1>"
+    return "<h1>HOME2</h1>"
 
 if __name__ == '__main__':
     app.run()
